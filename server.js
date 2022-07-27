@@ -18,7 +18,7 @@ app.use('/api', user);
 
 // test route
 app.get('/', (req, res) => {
-  res.send('<h1>Hello Backend </h1> <h4>This is a test route</h4>');
+  res.send('<h1>Hello Backend CI/CD</h1> <h4>This is a test route</h4>');
 });
 
 app.get('/products', (req, res) => {
